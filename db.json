@@ -1,24 +1,833 @@
 {
-    "test":[
-        {
-            "id":1,
-            "name":"dt"
-        },
-        {
-            "id":2,
-            "name":"dt01"
-        },
-        {
-            "id":3,
-            "name":"dt02"
-        },
-        {
-            "id":4,
-            "name":"dt03"
-        },
-        {
-            "id":5,
-            "name":"dt04"
+    "anh-tin": {
+        "event_response": {
+            "id": 52,
+            "code": "bvbvb",
+            "name": "bvbvb",
+            "status": 0,
+            "status_name": "Nháp",
+            "company_id": 1,
+            "company_name": "Máy móc",
+            "application_type_id": 1,
+            "reward_type_id": 0,
+            "application_type_name": "Doanh số sản phẩm",
+            "reward_type_name": null,
+            "type_entry_condition": 1,
+            "start_date": 1644598800000,
+            "end_date": 0,
+            "description": "",
+            "image": "",
+            "level": "Đại lý cấp 1",
+            "level_id": 1,
+            "list_application_object": [
+                {
+                    "user_agency_name": "Cửa hàng Chín Tửng",
+                    "user_agency_code": "AGG001TA13_M1",
+                    "level": "Cấp 1 ",
+                    "id": 4,
+                    "address": "36 Lê Thị Nhiên, Phường Đông Xuyên, Thành phố Long Xuyên, Tỉnh An Giang",
+                    "agency_id": 5,
+                    "agency_name": "Bán hàng qua Điện Thoại"
+                }
+            ],
+            "key_default_product": 0,
+            "lst_city": [],
+            "lst_region": [],
+            "lst_membership": [],
+            "attribute_type": 0,
+            "lst_event_child": [
+                {
+                    "event_id": 53,
+                    "event_name": "bvbvb",
+                    "is_condition_order_join": 1,
+                    "list_product_condition": [
+                        {
+                            "group_product": 1,
+                            "lst_response": [
+                                {
+                                    "condition_min": 1000000,
+                                    "condition_max": 10000000,
+                                    "discount": null,
+                                    "type": 0,
+                                    "group_id": null,
+                                    "han_muc": null,
+                                    "quy_doi_ty_le": null,
+                                    "gift_name": null,
+                                    "gift_quantity": 0,
+                                    "event_reward_type": "EVENT_REWARD_REVENUE_DISCOUNT",
+                                    "money_min": 0,
+                                    "money_max": 0,
+                                    "quantity_min": 0,
+                                    "quantity_max": 0,
+                                    "vat": 0,
+                                    "lst_product": [
+                                        {
+                                            "product_id": 0,
+                                            "product_name": null,
+                                            "discount": 50000,
+                                            "quantity_min": null,
+                                            "money_min": 0,
+                                            "product_attribute_type": 0,
+                                            "quantity_max": 0,
+                                            "money_max": 0,
+                                            "group_id": 1
+                                        }
+                                    ],
+                                    "treeTypeCateProductResponses": []
+                                },
+                                {
+                                    "condition_min": 20000000,
+                                    "condition_max": 40000000,
+                                    "discount": null,
+                                    "type": 0,
+                                    "group_id": null,
+                                    "han_muc": null,
+                                    "quy_doi_ty_le": null,
+                                    "gift_name": null,
+                                    "gift_quantity": 0,
+                                    "event_reward_type": "EVENT_REWARD_REVENUE_DISCOUNT",
+                                    "money_min": 0,
+                                    "money_max": 0,
+                                    "quantity_min": 0,
+                                    "quantity_max": 0,
+                                    "vat": 0,
+                                    "lst_product": [
+                                        {
+                                            "product_id": 0,
+                                            "product_name": null,
+                                            "discount": 1000000,
+                                            "quantity_min": null,
+                                            "money_min": 0,
+                                            "product_attribute_type": 0,
+                                            "quantity_max": 0,
+                                            "money_max": 0,
+                                            "group_id": 2
+                                        }
+                                    ],
+                                    "treeTypeCateProductResponses": []
+                                }
+                            ]
+                        },
+                        {
+                            "group_product": 2,
+                            "lst_response": [
+                                {
+                                    "condition_min": 10000000,
+                                    "condition_max": 0,
+                                    "discount": 1,
+                                    "type": 1,
+                                    "group_id": 1,
+                                    "han_muc": 0,
+                                    "quy_doi_ty_le": 0,
+                                    "gift_name": null,
+                                    "gift_quantity": 0,
+                                    "event_reward_type": "EVENT_REWARD_GIVE_GIFT",
+                                    "money_min": 0,
+                                    "money_max": 0,
+                                    "quantity_min": 0,
+                                    "quantity_max": 0,
+                                    "vat": null,
+                                    "lst_product": null,
+                                    "treeTypeCateProductResponses": null
+                                },
+                                {
+                                    "condition_min": 20000000,
+                                    "condition_max": 0,
+                                    "discount": 1,
+                                    "type": 1,
+                                    "group_id": 2,
+                                    "han_muc": 0,
+                                    "quy_doi_ty_le": 0,
+                                    "gift_name": null,
+                                    "gift_quantity": 0,
+                                    "event_reward_type": "EVENT_REWARD_GIVE_GIFT",
+                                    "money_min": 0,
+                                    "money_max": 0,
+                                    "quantity_min": 0,
+                                    "quantity_max": 0,
+                                    "vat": null,
+                                    "lst_product": null,
+                                    "treeTypeCateProductResponses": null
+                                }
+                            ]
+                        },
+                        {
+                            "group_product": 3,
+                            "lst_response": [
+                                {
+                                    "condition_min": 20000000,
+                                    "condition_max": 50000000,
+                                    "discount": null,
+                                    "type": 0,
+                                    "group_id": null,
+                                    "han_muc": null,
+                                    "quy_doi_ty_le": null,
+                                    "gift_name": null,
+                                    "gift_quantity": 0,
+                                    "event_reward_type": "EVENT_REWARD_PRODUCT_DISCOUNT",
+                                    "money_min": 0,
+                                    "money_max": 0,
+                                    "quantity_min": 0,
+                                    "quantity_max": 0,
+                                    "vat": 3,
+                                    "lst_product": [
+                                        {
+                                            "product_id": 553,
+                                            "product_name": "Máy bắt vít HYUNDAI HBV2030",
+                                            "discount": 2,
+                                            "quantity_min": 0,
+                                            "money_min": 0,
+                                            "product_attribute_type": 0,
+                                            "quantity_max": 0,
+                                            "money_max": 0,
+                                            "group_id": 0
+                                        },
+                                        {
+                                            "product_id": 554,
+                                            "product_name": "Máy bắt vít 10mm HYUNDAI HKP1010",
+                                            "discount": 3,
+                                            "quantity_min": 0,
+                                            "money_min": 0,
+                                            "product_attribute_type": 0,
+                                            "quantity_max": 0,
+                                            "money_max": 0,
+                                            "group_id": 0
+                                        }
+                                    ],
+                                    "treeTypeCateProductResponses": [
+                                        {
+                                            "id": 1,
+                                            "name": "Dụng cụ cầm tay dùng pin",
+                                            "children": [
+                                                {
+                                                    "id": 1,
+                                                    "key": 1,
+                                                    "code": null,
+                                                    "name": "Máy bắt vít HYUNDAI",
+                                                    "title": "Máy bắt vít HYUNDAI",
+                                                    "cate_name": null,
+                                                    "status": 1,
+                                                    "product_type_id": 1,
+                                                    "tree_id": "1-1",
+                                                    "children": [
+                                                        {
+                                                            "id": 553,
+                                                            "code": "HYUNDAI_HBV2030",
+                                                            "name": "Máy bắt vít HYUNDAI HBV2030",
+                                                            "total_version": 0,
+                                                            "group_name": "",
+                                                            "cate_name": null,
+                                                            "sub_cate": null,
+                                                            "brand_name": null,
+                                                            "product_type_name": "",
+                                                            "brand_id": 0,
+                                                            "status": 0,
+                                                            "price": 380000,
+                                                            "product_type_id": 1,
+                                                            "cate_id": 1,
+                                                            "tree_id": "1-1-553",
+                                                            "list_attribute": [
+                                                                {
+                                                                    "id": 2,
+                                                                    "name": "Bộ",
+                                                                    "type": 1,
+                                                                    "quantity": 0
+                                                                },
+                                                                {
+                                                                    "id": 4,
+                                                                    "name": "Thùng",
+                                                                    "type": 3,
+                                                                    "quantity": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Dụng cụ cầm tay dùng pin",
+                                            "children": [
+                                                {
+                                                    "id": 1,
+                                                    "key": 1,
+                                                    "code": null,
+                                                    "name": "Máy bắt vít HYUNDAI",
+                                                    "title": "Máy bắt vít HYUNDAI",
+                                                    "cate_name": null,
+                                                    "status": 1,
+                                                    "product_type_id": 1,
+                                                    "tree_id": "1-1",
+                                                    "children": [
+                                                        {
+                                                            "id": 554,
+                                                            "code": "HYUNDAI_HKP1010",
+                                                            "name": "Máy bắt vít 10mm HYUNDAI HKP1010",
+                                                            "total_version": 0,
+                                                            "group_name": "",
+                                                            "cate_name": null,
+                                                            "sub_cate": null,
+                                                            "brand_name": null,
+                                                            "product_type_name": "",
+                                                            "brand_id": 0,
+                                                            "status": 0,
+                                                            "price": 1450000,
+                                                            "product_type_id": 1,
+                                                            "cate_id": 1,
+                                                            "tree_id": "1-1-554",
+                                                            "list_attribute": [
+                                                                {
+                                                                    "id": 1,
+                                                                    "name": "Cái",
+                                                                    "type": 1,
+                                                                    "quantity": 0
+                                                                },
+                                                                {
+                                                                    "id": 4,
+                                                                    "name": "Thùng",
+                                                                    "type": 3,
+                                                                    "quantity": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition_min": 40000000,
+                                    "condition_max": 100000000,
+                                    "discount": null,
+                                    "type": 0,
+                                    "group_id": null,
+                                    "han_muc": null,
+                                    "quy_doi_ty_le": null,
+                                    "gift_name": null,
+                                    "gift_quantity": 0,
+                                    "event_reward_type": "EVENT_REWARD_PRODUCT_DISCOUNT",
+                                    "money_min": 0,
+                                    "money_max": 0,
+                                    "quantity_min": 0,
+                                    "quantity_max": 0,
+                                    "vat": 4,
+                                    "lst_product": [
+                                        {
+                                            "product_id": 555,
+                                            "product_name": "Máy bắt vít 10mm HYUNDAI HKP1014",
+                                            "discount": 1,
+                                            "quantity_min": 0,
+                                            "money_min": 0,
+                                            "product_attribute_type": 0,
+                                            "quantity_max": 0,
+                                            "money_max": 0,
+                                            "group_id": 0
+                                        },
+                                        {
+                                            "product_id": 556,
+                                            "product_name": "Máy bắt vít 13mm HYUNDAI HKP1318",
+                                            "discount": 4,
+                                            "quantity_min": 0,
+                                            "money_min": 0,
+                                            "product_attribute_type": 0,
+                                            "quantity_max": 0,
+                                            "money_max": 0,
+                                            "group_id": 0
+                                        }
+                                    ],
+                                    "treeTypeCateProductResponses": [
+                                        {
+                                            "id": 1,
+                                            "name": "Dụng cụ cầm tay dùng pin",
+                                            "children": [
+                                                {
+                                                    "id": 1,
+                                                    "key": 1,
+                                                    "code": null,
+                                                    "name": "Máy bắt vít HYUNDAI",
+                                                    "title": "Máy bắt vít HYUNDAI",
+                                                    "cate_name": null,
+                                                    "status": 1,
+                                                    "product_type_id": 1,
+                                                    "tree_id": "1-1",
+                                                    "children": [
+                                                        {
+                                                            "id": 555,
+                                                            "code": "HYUNDAI_HKP1014",
+                                                            "name": "Máy bắt vít 10mm HYUNDAI HKP1014",
+                                                            "total_version": 0,
+                                                            "group_name": "",
+                                                            "cate_name": null,
+                                                            "sub_cate": null,
+                                                            "brand_name": null,
+                                                            "product_type_name": "",
+                                                            "brand_id": 0,
+                                                            "status": 0,
+                                                            "price": 1890000,
+                                                            "product_type_id": 1,
+                                                            "cate_id": 1,
+                                                            "tree_id": "1-1-555",
+                                                            "list_attribute": [
+                                                                {
+                                                                    "id": 1,
+                                                                    "name": "Cái",
+                                                                    "type": 1,
+                                                                    "quantity": 0
+                                                                },
+                                                                {
+                                                                    "id": 4,
+                                                                    "name": "Thùng",
+                                                                    "type": 3,
+                                                                    "quantity": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Dụng cụ cầm tay dùng pin",
+                                            "children": [
+                                                {
+                                                    "id": 1,
+                                                    "key": 1,
+                                                    "code": null,
+                                                    "name": "Máy bắt vít HYUNDAI",
+                                                    "title": "Máy bắt vít HYUNDAI",
+                                                    "cate_name": null,
+                                                    "status": 1,
+                                                    "product_type_id": 1,
+                                                    "tree_id": "1-1",
+                                                    "children": [
+                                                        {
+                                                            "id": 556,
+                                                            "code": "HYUNDAI_HKP1318",
+                                                            "name": "Máy bắt vít 13mm HYUNDAI HKP1318",
+                                                            "total_version": 0,
+                                                            "group_name": "",
+                                                            "cate_name": null,
+                                                            "sub_cate": null,
+                                                            "brand_name": null,
+                                                            "product_type_name": "",
+                                                            "brand_id": 0,
+                                                            "status": 0,
+                                                            "price": 2290000,
+                                                            "product_type_id": 1,
+                                                            "cate_id": 1,
+                                                            "tree_id": "1-1-556",
+                                                            "list_attribute": [
+                                                                {
+                                                                    "id": 1,
+                                                                    "name": "Cái",
+                                                                    "type": 1,
+                                                                    "quantity": 0
+                                                                },
+                                                                {
+                                                                    "id": 4,
+                                                                    "name": "Thùng",
+                                                                    "type": 3,
+                                                                    "quantity": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "group_product": 4,
+                            "lst_response": [
+                                {
+                                    "condition_min": 200000000,
+                                    "condition_max": 400000000,
+                                    "discount": null,
+                                    "type": 0,
+                                    "group_id": null,
+                                    "han_muc": null,
+                                    "quy_doi_ty_le": null,
+                                    "gift_name": null,
+                                    "gift_quantity": 0,
+                                    "event_reward_type": "EVENT_REWARD_PRODUCT_GIFT",
+                                    "money_min": 0,
+                                    "money_max": 0,
+                                    "quantity_min": 0,
+                                    "quantity_max": 0,
+                                    "vat": 0,
+                                    "lst_product": [
+                                        {
+                                            "product_id": 553,
+                                            "product_name": "Máy bắt vít HYUNDAI HBV2030",
+                                            "discount": 0,
+                                            "quantity_min": 0,
+                                            "money_min": 0,
+                                            "product_attribute_type": 1,
+                                            "quantity_max": 1,
+                                            "money_max": 0,
+                                            "group_id": 0
+                                        },
+                                        {
+                                            "product_id": 554,
+                                            "product_name": "Máy bắt vít 10mm HYUNDAI HKP1010",
+                                            "discount": 0,
+                                            "quantity_min": 1,
+                                            "money_min": 0,
+                                            "product_attribute_type": 2,
+                                            "quantity_max": 0,
+                                            "money_max": 0,
+                                            "group_id": 0
+                                        }
+                                    ],
+                                    "treeTypeCateProductResponses": [
+                                        {
+                                            "id": 1,
+                                            "name": "Dụng cụ cầm tay dùng pin",
+                                            "children": [
+                                                {
+                                                    "id": 1,
+                                                    "key": 1,
+                                                    "code": null,
+                                                    "name": "Máy bắt vít HYUNDAI",
+                                                    "title": "Máy bắt vít HYUNDAI",
+                                                    "cate_name": null,
+                                                    "status": 1,
+                                                    "product_type_id": 1,
+                                                    "tree_id": "1-1",
+                                                    "children": [
+                                                        {
+                                                            "id": 553,
+                                                            "code": "HYUNDAI_HBV2030",
+                                                            "name": "Máy bắt vít HYUNDAI HBV2030",
+                                                            "total_version": 0,
+                                                            "group_name": "",
+                                                            "cate_name": null,
+                                                            "sub_cate": null,
+                                                            "brand_name": null,
+                                                            "product_type_name": "",
+                                                            "brand_id": 0,
+                                                            "status": 0,
+                                                            "price": 380000,
+                                                            "product_type_id": 1,
+                                                            "cate_id": 1,
+                                                            "tree_id": "1-1-553",
+                                                            "list_attribute": [
+                                                                {
+                                                                    "id": 2,
+                                                                    "name": "Bộ",
+                                                                    "type": 1,
+                                                                    "quantity": 0
+                                                                },
+                                                                {
+                                                                    "id": 4,
+                                                                    "name": "Thùng",
+                                                                    "type": 3,
+                                                                    "quantity": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Dụng cụ cầm tay dùng pin",
+                                            "children": [
+                                                {
+                                                    "id": 1,
+                                                    "key": 1,
+                                                    "code": null,
+                                                    "name": "Máy bắt vít HYUNDAI",
+                                                    "title": "Máy bắt vít HYUNDAI",
+                                                    "cate_name": null,
+                                                    "status": 1,
+                                                    "product_type_id": 1,
+                                                    "tree_id": "1-1",
+                                                    "children": [
+                                                        {
+                                                            "id": 554,
+                                                            "code": "HYUNDAI_HKP1010",
+                                                            "name": "Máy bắt vít 10mm HYUNDAI HKP1010",
+                                                            "total_version": 0,
+                                                            "group_name": "",
+                                                            "cate_name": null,
+                                                            "sub_cate": null,
+                                                            "brand_name": null,
+                                                            "product_type_name": "",
+                                                            "brand_id": 0,
+                                                            "status": 0,
+                                                            "price": 1450000,
+                                                            "product_type_id": 1,
+                                                            "cate_id": 1,
+                                                            "tree_id": "1-1-554",
+                                                            "list_attribute": [
+                                                                {
+                                                                    "id": 1,
+                                                                    "name": "Cái",
+                                                                    "type": 1,
+                                                                    "quantity": 0
+                                                                },
+                                                                {
+                                                                    "id": 4,
+                                                                    "name": "Thùng",
+                                                                    "type": 3,
+                                                                    "quantity": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition_min": 300000000,
+                                    "condition_max": 500000000,
+                                    "discount": null,
+                                    "type": 0,
+                                    "group_id": null,
+                                    "han_muc": null,
+                                    "quy_doi_ty_le": null,
+                                    "gift_name": null,
+                                    "gift_quantity": 0,
+                                    "event_reward_type": "EVENT_REWARD_PRODUCT_GIFT",
+                                    "money_min": 0,
+                                    "money_max": 0,
+                                    "quantity_min": 0,
+                                    "quantity_max": 0,
+                                    "vat": 0,
+                                    "lst_product": [
+                                        {
+                                            "product_id": 557,
+                                            "product_name": "Máy khoan búa HYUNDAI 20V HKBP2013BM (chạy pin 2AH)",
+                                            "discount": 0,
+                                            "quantity_min": 0,
+                                            "money_min": 0,
+                                            "product_attribute_type": 1,
+                                            "quantity_max": 2,
+                                            "money_max": 0,
+                                            "group_id": 0
+                                        },
+                                        {
+                                            "product_id": 558,
+                                            "product_name": "Máy khoan búa HYUNDAI 20V HKBP2013BM (chạy pin 4AH)",
+                                            "discount": 0,
+                                            "quantity_min": 4,
+                                            "money_min": 0,
+                                            "product_attribute_type": 2,
+                                            "quantity_max": 0,
+                                            "money_max": 0,
+                                            "group_id": 0
+                                        }
+                                    ],
+                                    "treeTypeCateProductResponses": [
+                                        {
+                                            "id": 1,
+                                            "name": "Dụng cụ cầm tay dùng pin",
+                                            "children": [
+                                                {
+                                                    "id": 2,
+                                                    "key": 2,
+                                                    "code": null,
+                                                    "name": "Máy khoan búa HYUNDAI",
+                                                    "title": "Máy khoan búa HYUNDAI",
+                                                    "cate_name": null,
+                                                    "status": 1,
+                                                    "product_type_id": 1,
+                                                    "tree_id": "1-2",
+                                                    "children": [
+                                                        {
+                                                            "id": 557,
+                                                            "code": "HYUNDAI_HKBP2013BM#2AH",
+                                                            "name": "Máy khoan búa HYUNDAI 20V HKBP2013BM (chạy pin 2AH)",
+                                                            "total_version": 0,
+                                                            "group_name": "",
+                                                            "cate_name": null,
+                                                            "sub_cate": null,
+                                                            "brand_name": null,
+                                                            "product_type_name": "",
+                                                            "brand_id": 0,
+                                                            "status": 0,
+                                                            "price": 2190000,
+                                                            "product_type_id": 1,
+                                                            "cate_id": 2,
+                                                            "tree_id": "1-2-557",
+                                                            "list_attribute": [
+                                                                {
+                                                                    "id": 1,
+                                                                    "name": "Cái",
+                                                                    "type": 1,
+                                                                    "quantity": 0
+                                                                },
+                                                                {
+                                                                    "id": 4,
+                                                                    "name": "Thùng",
+                                                                    "type": 3,
+                                                                    "quantity": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Dụng cụ cầm tay dùng pin",
+                                            "children": [
+                                                {
+                                                    "id": 2,
+                                                    "key": 2,
+                                                    "code": null,
+                                                    "name": "Máy khoan búa HYUNDAI",
+                                                    "title": "Máy khoan búa HYUNDAI",
+                                                    "cate_name": null,
+                                                    "status": 1,
+                                                    "product_type_id": 1,
+                                                    "tree_id": "1-2",
+                                                    "children": [
+                                                        {
+                                                            "id": 558,
+                                                            "code": "HYUNDAI_HKBP2013BM#4AH",
+                                                            "name": "Máy khoan búa HYUNDAI 20V HKBP2013BM (chạy pin 4AH)",
+                                                            "total_version": 0,
+                                                            "group_name": "",
+                                                            "cate_name": null,
+                                                            "sub_cate": null,
+                                                            "brand_name": null,
+                                                            "product_type_name": "",
+                                                            "brand_id": 0,
+                                                            "status": 0,
+                                                            "price": 2750000,
+                                                            "product_type_id": 1,
+                                                            "cate_id": 2,
+                                                            "tree_id": "1-2-558",
+                                                            "list_attribute": [
+                                                                {
+                                                                    "id": 1,
+                                                                    "name": "Cái",
+                                                                    "type": 1,
+                                                                    "quantity": 0
+                                                                },
+                                                                {
+                                                                    "id": 4,
+                                                                    "name": "Thùng",
+                                                                    "type": 3,
+                                                                    "quantity": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "list_cate_type": [
+                        {
+                            "group": 1,
+                            "event_group_product": [
+                                {
+                                    "id": 1,
+                                    "name": "Dụng cụ cầm tay dùng pin",
+                                    "children": [
+                                        {
+                                            "id": 1,
+                                            "name": "Máy bắt vít HYUNDAI",
+                                            "code": "code",
+                                            "title": "Máy bắt vít HYUNDAI",
+                                            "tree_id": "1-1",
+                                            "children": [
+                                                {
+                                                    "id": 553,
+                                                    "code": "HYUNDAI_HBV2030",
+                                                    "name": "Máy bắt vít HYUNDAI HBV2030",
+                                                    "tree_id": "1-1-553",
+                                                    "description": "",
+                                                    "convert_ratio": 0,
+                                                    "is_key_default": 0
+                                                },
+                                                {
+                                                    "id": 554,
+                                                    "code": "HYUNDAI_HKP1010",
+                                                    "name": "Máy bắt vít 10mm HYUNDAI HKP1010",
+                                                    "tree_id": "1-1-554",
+                                                    "description": "",
+                                                    "convert_ratio": 0,
+                                                    "is_key_default": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "group": 2,
+                            "event_group_product": [
+                                {
+                                    "id": 1,
+                                    "name": "Dụng cụ cầm tay dùng pin",
+                                    "children": [
+                                        {
+                                            "id": 1,
+                                            "name": "Máy bắt vít HYUNDAI",
+                                            "code": "code",
+                                            "title": "Máy bắt vít HYUNDAI",
+                                            "tree_id": "1-1",
+                                            "children": [
+                                                {
+                                                    "id": 555,
+                                                    "code": "HYUNDAI_HKP1014",
+                                                    "name": "Máy bắt vít 10mm HYUNDAI HKP1014",
+                                                    "tree_id": "1-1-555",
+                                                    "description": "",
+                                                    "convert_ratio": 0,
+                                                    "is_key_default": 0
+                                                },
+                                                {
+                                                    "id": 556,
+                                                    "code": "HYUNDAI_HKP1318",
+                                                    "name": "Máy bắt vít 13mm HYUNDAI HKP1318",
+                                                    "tree_id": "1-1-556",
+                                                    "description": "",
+                                                    "convert_ratio": 0,
+                                                    "is_key_default": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "lst_setup_condition": [],
+                    "lst_excommunicate_event_ids": [],
+                    "sort_order": 0,
+                    "event_priority_type": 0,
+                    "status": 0,
+                    "status_name": "Nháp",
+                    "event_birthday_type": 0
+                }
+            ],
+            "product_atrtibute_type": 1,
+            "is_condition_order_join": 0,
+            "event_priority_type": 0,
+            "event_birthday_type": 0,
+            "is_show_event_name": 0,
+            "type_increment": 0,
+            "status_default": 0
         }
-    ]
+    }
 }
