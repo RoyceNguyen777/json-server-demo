@@ -24,7 +24,7 @@
             },
             "dieu_kien_theo_don": {
                 "type": "Số lượng sản phẩm trên mỗi đơn hàng",
-                "listType": 0
+                "listType": 1
             },
             "formality": 1,
             "description": "",
