@@ -16,6 +16,8 @@
             "start_date": 1644598800000,
             "end_date": 1647018000000,
             "payout_date": 1646413200000,
+            "start_reward_date": 1644598800000,
+            "end_reward_date": 1647018000000,
             "description": "",
             "image": "",
             "level": "Đại lý cấp 1",
