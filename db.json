@@ -38,9 +38,348 @@
                 }
             ],
             "key_default_product": 0,
-            "lst_city": [],
-            "lst_region": [],
-            "lst_membership": [],
+            "lst_city": [
+                {
+                    "id": 92,
+                    "name": "Thành phố Cần Thơ",
+                    "parent_id": 3
+                },
+                {
+                    "id": 48,
+                    "name": "Thành phố Đà Nẵng",
+                    "parent_id": 2
+                },
+                {
+                    "id": 1,
+                    "name": "Thành phố Hà Nội",
+                    "parent_id": 4
+                },
+                {
+                    "id": 31,
+                    "name": "Thành phố Hải Phòng",
+                    "parent_id": 4
+                },
+                {
+                    "id": 79,
+                    "name": "Thành phố Hồ Chí Minh",
+                    "parent_id": 1
+                },
+                {
+                    "id": 89,
+                    "name": "Tỉnh An Giang",
+                    "parent_id": 3
+                },
+                {
+                    "id": 77,
+                    "name": "Tỉnh Bà Rịa - Vũng Tàu",
+                    "parent_id": 1
+                },
+                {
+                    "id": 24,
+                    "name": "Tỉnh Bắc Giang",
+                    "parent_id": 4
+                },
+                {
+                    "id": 6,
+                    "name": "Tỉnh Bắc Kạn",
+                    "parent_id": 4
+                },
+                {
+                    "id": 95,
+                    "name": "Tỉnh Bạc Liêu",
+                    "parent_id": 3
+                },
+                {
+                    "id": 27,
+                    "name": "Tỉnh Bắc Ninh",
+                    "parent_id": 4
+                },
+                {
+                    "id": 83,
+                    "name": "Tỉnh Bến Tre",
+                    "parent_id": 3
+                },
+                {
+                    "id": 74,
+                    "name": "Tỉnh Bình Dương",
+                    "parent_id": 1
+                },
+                {
+                    "id": 52,
+                    "name": "Tỉnh Bình Định",
+                    "parent_id": 2
+                },
+                {
+                    "id": 70,
+                    "name": "Tỉnh Bình Phước",
+                    "parent_id": 1
+                },
+                {
+                    "id": 60,
+                    "name": "Tỉnh Bình Thuận",
+                    "parent_id": 1
+                },
+                {
+                    "id": 96,
+                    "name": "Tỉnh Cà Mau",
+                    "parent_id": 3
+                },
+                {
+                    "id": 4,
+                    "name": "Tỉnh Cao Bằng",
+                    "parent_id": 4
+                },
+                {
+                    "id": 66,
+                    "name": "Tỉnh Đắk Lắk",
+                    "parent_id": 2
+                },
+                {
+                    "id": 67,
+                    "name": "Tỉnh Đắk Nông",
+                    "parent_id": 2
+                },
+                {
+                    "id": 11,
+                    "name": "Tỉnh Điện Biên",
+                    "parent_id": 4
+                },
+                {
+                    "id": 75,
+                    "name": "Tỉnh Đồng Nai",
+                    "parent_id": 1
+                },
+                {
+                    "id": 87,
+                    "name": "Tỉnh Đồng Tháp",
+                    "parent_id": 3
+                },
+                {
+                    "id": 64,
+                    "name": "Tỉnh Gia Lai",
+                    "parent_id": 2
+                },
+                {
+                    "id": 2,
+                    "name": "Tỉnh Hà Giang",
+                    "parent_id": 4
+                },
+                {
+                    "id": 35,
+                    "name": "Tỉnh Hà Nam",
+                    "parent_id": 4
+                },
+                {
+                    "id": 42,
+                    "name": "Tỉnh Hà Tĩnh",
+                    "parent_id": 2
+                },
+                {
+                    "id": 30,
+                    "name": "Tỉnh Hải Dương",
+                    "parent_id": 4
+                },
+                {
+                    "id": 93,
+                    "name": "Tỉnh Hậu Giang",
+                    "parent_id": 3
+                },
+                {
+                    "id": 17,
+                    "name": "Tỉnh Hoà Bình",
+                    "parent_id": 4
+                },
+                {
+                    "id": 33,
+                    "name": "Tỉnh Hưng Yên",
+                    "parent_id": 4
+                },
+                {
+                    "id": 56,
+                    "name": "Tỉnh Khánh Hòa",
+                    "parent_id": 2
+                },
+                {
+                    "id": 91,
+                    "name": "Tỉnh Kiên Giang",
+                    "parent_id": 3
+                },
+                {
+                    "id": 62,
+                    "name": "Tỉnh Kon Tum",
+                    "parent_id": 2
+                },
+                {
+                    "id": 12,
+                    "name": "Tỉnh Lai Châu",
+                    "parent_id": 4
+                },
+                {
+                    "id": 68,
+                    "name": "Tỉnh Lâm Đồng",
+                    "parent_id": 1
+                },
+                {
+                    "id": 20,
+                    "name": "Tỉnh Lạng Sơn",
+                    "parent_id": 4
+                },
+                {
+                    "id": 10,
+                    "name": "Tỉnh Lào Cai",
+                    "parent_id": 4
+                },
+                {
+                    "id": 80,
+                    "name": "Tỉnh Long An",
+                    "parent_id": 3
+                },
+                {
+                    "id": 36,
+                    "name": "Tỉnh Nam Định",
+                    "parent_id": 4
+                },
+                {
+                    "id": 40,
+                    "name": "Tỉnh Nghệ An",
+                    "parent_id": 2
+                },
+                {
+                    "id": 37,
+                    "name": "Tỉnh Ninh Bình",
+                    "parent_id": 4
+                },
+                {
+                    "id": 58,
+                    "name": "Tỉnh Ninh Thuận",
+                    "parent_id": 1
+                },
+                {
+                    "id": 25,
+                    "name": "Tỉnh Phú Thọ",
+                    "parent_id": 4
+                },
+                {
+                    "id": 54,
+                    "name": "Tỉnh Phú Yên",
+                    "parent_id": 2
+                },
+                {
+                    "id": 44,
+                    "name": "Tỉnh Quảng Bình",
+                    "parent_id": 2
+                },
+                {
+                    "id": 49,
+                    "name": "Tỉnh Quảng Nam",
+                    "parent_id": 2
+                },
+                {
+                    "id": 51,
+                    "name": "Tỉnh Quảng Ngãi",
+                    "parent_id": 2
+                },
+                {
+                    "id": 22,
+                    "name": "Tỉnh Quảng Ninh",
+                    "parent_id": 4
+                },
+                {
+                    "id": 45,
+                    "name": "Tỉnh Quảng Trị",
+                    "parent_id": 2
+                },
+                {
+                    "id": 94,
+                    "name": "Tỉnh Sóc Trăng",
+                    "parent_id": 3
+                },
+                {
+                    "id": 14,
+                    "name": "Tỉnh Sơn La",
+                    "parent_id": 4
+                },
+                {
+                    "id": 72,
+                    "name": "Tỉnh Tây Ninh",
+                    "parent_id": 1
+                },
+                {
+                    "id": 34,
+                    "name": "Tỉnh Thái Bình",
+                    "parent_id": 4
+                },
+                {
+                    "id": 19,
+                    "name": "Tỉnh Thái Nguyên",
+                    "parent_id": 4
+                },
+                {
+                    "id": 38,
+                    "name": "Tỉnh Thanh Hóa",
+                    "parent_id": 2
+                },
+                {
+                    "id": 46,
+                    "name": "Tỉnh Thừa Thiên Huế",
+                    "parent_id": 2
+                },
+                {
+                    "id": 82,
+                    "name": "Tỉnh Tiền Giang",
+                    "parent_id": 3
+                },
+                {
+                    "id": 84,
+                    "name": "Tỉnh Trà Vinh",
+                    "parent_id": 3
+                },
+                {
+                    "id": 8,
+                    "name": "Tỉnh Tuyên Quang",
+                    "parent_id": 4
+                },
+                {
+                    "id": 86,
+                    "name": "Tỉnh Vĩnh Long",
+                    "parent_id": 3
+                },
+                {
+                    "id": 26,
+                    "name": "Tỉnh Vĩnh Phúc",
+                    "parent_id": 4
+                },
+                {
+                    "id": 15,
+                    "name": "Tỉnh Yên Bái",
+                    "parent_id": 4
+                }
+            ],
+            "lst_region": [
+                {
+                    "id": 1,
+                    "name": "KVKD Miền Đông"
+                },
+                {
+                    "id": 2,
+                    "name": "KVKD Miền Trung"
+                },
+                {
+                    "id": 3,
+                    "name": "KVKD Miền Tây"
+                },
+                {
+                    "id": 4,
+                    "name": "KVKD Miền Bắc"
+                }
+            ],
+            "lst_membership": [
+                {
+                    "id": 1,
+                    "name": "Thành viên",
+                    "code": "M"
+                }
+            ],
             "attribute_type": 0,
             "lst_event_child": [
                 {
