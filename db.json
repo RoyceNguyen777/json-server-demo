@@ -410,9 +410,9 @@
                                     "lst_product": [
                                         {
                                             "product_id": 0,
-                                            "product_name": null,
+                                            "product_name": "Máy bắt vít HYUNDAI",
                                             "discount": 50000,
-                                            "quantity_min": null,
+                                            "quantity_min": 50000,
                                             "money_min": 0,
                                             "product_attribute_type": 0,
                                             "quantity_max": 0,
@@ -441,9 +441,9 @@
                                     "lst_product": [
                                         {
                                             "product_id": 0,
-                                            "product_name": null,
+                                            "product_name": "Máy bắt vít HYUNDAI",
                                             "discount": 1000000,
-                                            "quantity_min": null,
+                                            "quantity_min": 1000000,
                                             "money_min": 0,
                                             "product_attribute_type": 0,
                                             "quantity_max": 0,
