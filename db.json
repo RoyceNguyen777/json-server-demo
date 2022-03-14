@@ -19,6 +19,7 @@
             "rewardStartDate": 1644598800000,
             "rewardEndDate": 1647018000000,
             "groupType": 1,
+            "eventForm": 4,
             "attachedCondition": {
                 "orderProductCondition": {
                     "groupProductCondition (theo nhóm sản phẩm)": [
