@@ -94,18 +94,18 @@
                             "userCode": "mã đại lý"
                         }
                     ],
-                    "filterCondition (theo điều kiện lọc)": {
-                        "memberships (cấp bậc)": [
+                    "filterCondition": {
+                        "memberships": [
                             "Bạch kim",
                             "vàng"
                         ],
-                        "regions (vùng đại lý)": [
+                        "regions": [
                             "KVKD miền đông"
                         ],
-                        "cities (tỉnh thành phố)": [
+                        "cities": [
                             "Tỉnh An Giang"
                         ],
-                        "excommunicatedUsers (loại trừ đại lý)": [
+                        "excommunicatedUsers": [
                             {
                                 "userId": 1,
                                 "userCode": "ABC123",
