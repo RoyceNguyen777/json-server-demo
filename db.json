@@ -75,8 +75,8 @@
                 },
                 "paymentCondition": {
                     "excommunicateDeptOrder": true,
-                    "minimumPaymentDeptPercent": 0,
-                    "minimumPaymentOrderPercent": 0
+                    "minimumPaymentDeptPercent": 10,
+                    "minimumPaymentOrderPercent": 30
                 },
                 "excommunicatedEventOnOrder": [
                     {
