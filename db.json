@@ -74,9 +74,9 @@
                     "typeOfRevenueProduct (1: doanh thu thuần 2: doanh số)": 2
                 },
                 "paymentCondition": {
-                    "excommunicateDeptOrder (loại trừ thanh toán)": true,
-                    "minimumPaymentDeptPercent (Phần trăm thanh toán công nợ)": 0,
-                    "minimumPaymentOrderPercent (phần trăm thánh tối tối thiểu)": 0
+                    "excommunicateDeptOrder": true,
+                    "minimumPaymentDeptPercent": 0,
+                    "minimumPaymentOrderPercent": 0
                 },
                 "excommunicatedEventOnOrder": [
                     {
