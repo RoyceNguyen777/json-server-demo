@@ -86,8 +86,8 @@
                     }
                 ],
                 "participantsCondition": {
-                    "type (1: theo điều kiện lọc, 2: theo đại lý cấp 1)": 1,
-                    "userCondition (Theo đại lý cấp 1)": [
+                    "type": 1,
+                    "userCondition": [
                         {
                             "userId": 1,
                             "userName": "Tên đại lý",
