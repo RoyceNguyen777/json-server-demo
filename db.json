@@ -97,11 +97,8 @@
                     "filterCondition": {
                         "level": "Đại lý cấp 1",
                         "memberships": [
-                            {
-                                "id": 1,
-                                "name": "Thành viên",
-                                "code": "M"
-                            }
+                            "Bạch kim",
+                            " Vàng"
                         ],
                         "regions": [
                             "KVKD miền đông"
