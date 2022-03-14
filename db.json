@@ -2,10 +2,10 @@
     "anh-tin": {
         "event_response": {
             "id": 52,
-            "code": "bvbvb",
-            "name": "bvbvb",
+            "eventCode": "bvbvb",
+            "eventName": "bvbvb",
             "status": 0,
-            "status_name": "Nháp",
+            "statusName": "Nháp",
             "company_id": 1,
             "company_name": "Máy móc",
             "application_type_id": 1,
@@ -13,11 +13,11 @@
             "application_type_name": "Số lượng sản phẩm",
             "reward_type_name": null,
             "type_entry_condition": 0,
-            "start_date": 1644598800000,
-            "end_date": 1647018000000,
-            "payout_date": 1646413200000,
-            "start_reward_date": 1644598800000,
-            "end_reward_date": 1647018000000,
+            "startDate": 1644598800000,
+            "endDate": 1647018000000,
+            "paymentDate": 1646413200000,
+            "rewardStartDate": 1644598800000,
+            "rewardEndDate": 1647018000000,
             "condition_payout": {
                 "percent_payout_reward": "30%",
                 "percent_debt": "50%"
@@ -27,8 +27,8 @@
                 "listType": 1
             },
             "formality": 1,
-            "description": "",
-            "image": "",
+            "eventDescription": "",
+            "eventImage": "",
             "level": "Đại lý cấp 1",
             "level_id": 1,
             "list_application_object": [
