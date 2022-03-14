@@ -95,9 +95,10 @@
                         }
                     ],
                     "filterCondition": {
+                        "level": "Đại lý cấp 1",
                         "memberships": [
                             "Bạch kim",
-                            "vàng"
+                            " Vàng"
                         ],
                         "regions": [
                             "KVKD miền đông"
@@ -165,7 +166,6 @@
             "formality": 1,
             "eventDescription": "",
             "eventImage": "",
-            "level": "Đại lý cấp 1",
             "level_id": 1,
             "list_application_object": [
                 {
