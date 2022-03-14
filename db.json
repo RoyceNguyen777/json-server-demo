@@ -18,6 +18,7 @@
             "paymentDate": 1646413200000,
             "rewardStartDate": 1644598800000,
             "rewardEndDate": 1647018000000,
+            "groupType": 1,
             "attachedCondition": {
                 "orderProductCondition": {
                     "groupProductCondition (theo nhóm sản phẩm)": [
