@@ -18,10 +18,145 @@
             "paymentDate": 1646413200000,
             "rewardStartDate": 1644598800000,
             "rewardEndDate": 1647018000000,
-            "paymentCondition": {
-                "excommunicateDeptOrder": true,
-                "minimumPaymentDeptPercent": 0,
-                "minimumPaymentOrderPercent": 0
+            "attachedCondition": {
+                "orderProductCondition": {
+                    "groupProductCondition (theo nhóm sản phẩm)": [
+                        {
+                            "group": 1,
+                            "valueCondition": 10000,
+                            "event_group_product": [
+                                {
+                                    "id": 1,
+                                    "name": "Dụng cụ cầm tay dùng pin",
+                                    "children": [
+                                        {
+                                            "id": 1,
+                                            "name": "Máy bắt vít HYUNDAI",
+                                            "code": "code",
+                                            "title": "Máy bắt vít HYUNDAI",
+                                            "tree_id": "1-1",
+                                            "children": [
+                                                {
+                                                    "id": 553,
+                                                    "code": "HYUNDAI_HBV2030",
+                                                    "name": "Máy bắt vít HYUNDAI HBV2030",
+                                                    "tree_id": "1-1-553",
+                                                    "description": "",
+                                                    "convert_ratio": 0,
+                                                    "is_key_default": 0
+                                                },
+                                                {
+                                                    "id": 554,
+                                                    "code": "HYUNDAI_HKP1010",
+                                                    "name": "Máy bắt vít 10mm HYUNDAI HKP1010",
+                                                    "tree_id": "1-1-554",
+                                                    "description": "",
+                                                    "convert_ratio": 0,
+                                                    "is_key_default": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "orderValueCondition (giá trị đơn hàng)": 0,
+                    "productCondition (theo sản phẩm)": [
+                        {
+                            "productId": 10,
+                            "productName": "san pham 1",
+                            "valueCondition": 5
+                        }
+                    ],
+                    "type (1:Số lượng sản phẩm 2: Giá trị sản phẩm 3: Giá trị đơn hàng)": 3,
+                    "productType (1: sản phẩm 2: nhóm sản phẩm)": 1,
+                    "typeOfRevenueProduct (1: doanh thu thuần 2: doanh số)": 2
+                },
+                "paymentCondition": {
+                    "excommunicateDeptOrder (loại trừ thanh toán)": true,
+                    "minimumPaymentDeptPercent (Phần trăm thanh toán công nợ)": 0,
+                    "minimumPaymentOrderPercent (phần trăm thánh tối tối thiểu)": 0
+                },
+                "excommunicatedEventOnOrder": [
+                    {
+                        "eventId": 1,
+                        "eventName": "csbh 1",
+                        "typeName": "CSBH"
+                    }
+                ],
+                "participantsCondition (đối tượng tham gia)": {
+                    "type (1: theo điều kiện lọc, 2: theo đại lý cấp 1)": 1,
+                    "userCondition (Theo đại lý cấp 1)": [
+                        {
+                            "userId": 1,
+                            "userName": "Tên đại lý",
+                            "userCode": "mã đại lý"
+                        }
+                    ],
+                    "filterCondition (theo điều kiện lọc)": {
+                        "memberships (cấp bậc)": [
+                            "Bạch kim",
+                            "vàng"
+                        ],
+                        "regions (vùng đại lý)": [
+                            "KVKD miền đông"
+                        ],
+                        "cities (tỉnh thành phố)": [
+                            "Tỉnh An Giang"
+                        ],
+                        "excommunicatedUsers (loại trừ đại lý)": [
+                            {
+                                "userId": 1,
+                                "userCode": "ABC123",
+                                "userName": "phạm văn a",
+                                "membership": "bạc",
+                                "agencyName": "PKD miền Đông"
+                            }
+                        ]
+                    }
+                },
+                "groupProductApply": [
+                    {
+                        "group": 1,
+                        "valueCondition": 10000,
+                        "event_group_product": [
+                            {
+                                "id": 1,
+                                "name": "Dụng cụ cầm tay dùng pin",
+                                "children": [
+                                    {
+                                        "id": 1,
+                                        "name": "Máy bắt vít HYUNDAI",
+                                        "code": "code",
+                                        "title": "Máy bắt vít HYUNDAI",
+                                        "tree_id": "1-1",
+                                        "children": [
+                                            {
+                                                "id": 553,
+                                                "code": "HYUNDAI_HBV2030",
+                                                "name": "Máy bắt vít HYUNDAI HBV2030",
+                                                "tree_id": "1-1-553",
+                                                "description": "",
+                                                "convert_ratio": 0,
+                                                "is_key_default": 0
+                                            },
+                                            {
+                                                "id": 554,
+                                                "code": "HYUNDAI_HKP1010",
+                                                "name": "Máy bắt vít 10mm HYUNDAI HKP1010",
+                                                "tree_id": "1-1-554",
+                                                "description": "",
+                                                "convert_ratio": 0,
+                                                "is_key_default": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             "dieu_kien_theo_don": {
                 "type": "Số lượng sản phẩm trên mỗi đơn hàng",
