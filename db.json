@@ -63,7 +63,7 @@
                             ]
                         }
                     ],
-                    "orderValueCondition": 100000,
+                    "orderValueCondition": 100000000,
                     "productCondition (theo sản phẩm)": [
                         {
                             "productId": 10,
