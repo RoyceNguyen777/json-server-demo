@@ -63,7 +63,7 @@
                             ]
                         }
                     ],
-                    "orderValueCondition (giá trị đơn hàng)": 0,
+                    "orderValueCondition": 0,
                     "productCondition (theo sản phẩm)": [
                         {
                             "productId": 10,
