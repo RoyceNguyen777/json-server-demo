@@ -72,7 +72,7 @@
                         }
                     ],
                     "type": 2,
-                    "productType": 1,
+                    "productType": 2,
                     "typeOfRevenueProduct (1: doanh thu thuần 2: doanh số)": 2
                 },
                 "paymentCondition": {
