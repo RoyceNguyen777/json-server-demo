@@ -154,7 +154,7 @@
                                                 "code": "HYUNDAI_HBV2030",
                                                 "name": "Máy bắt vít HYUNDAI HBV2030",
                                                 "tree_id": "1-1-553",
-                                                "description": "",
+                                                "description": "Mua 3 tặng 1",
                                                 "convert_ratio": 0,
                                                 "is_key_default": 0
                                             },
@@ -163,7 +163,7 @@
                                                 "code": "HYUNDAI_HKP1010",
                                                 "name": "Máy bắt vít 10mm HYUNDAI HKP1010",
                                                 "tree_id": "1-1-554",
-                                                "description": "",
+                                                "description": "Mua 10 tặng 1",
                                                 "convert_ratio": 0,
                                                 "is_key_default": 0
                                             }
@@ -179,7 +179,6 @@
                 "type": "Số lượng sản phẩm trên mỗi đơn hàng",
                 "listType": 1
             },
-            "formality": 1,
             "eventDescription": "",
             "eventImage": "",
             "level_id": 1,
