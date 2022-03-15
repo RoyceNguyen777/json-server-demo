@@ -93,7 +93,7 @@
                     ],
                     "type": 2,
                     "productType": 2,
-                    "typeOfRevenueProduct (1: doanh thu thuần 2: doanh số)": 2
+                    "typeOfRevenueProduct": 2
                 },
                 "paymentCondition": {
                     "excommunicateDeptOrder": true,
