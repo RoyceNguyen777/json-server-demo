@@ -64,7 +64,7 @@
                         }
                     ],
                     "orderValueCondition": 100000000,
-                    "productCondition (theo sản phẩm)": [
+                    "productCondition": [
                         {
                             "productId": 10,
                             "productName": "san pham 1",
