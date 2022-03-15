@@ -71,7 +71,7 @@
                             "valueCondition": 5
                         }
                     ],
-                    "type": 2,
+                    "type": 1,
                     "productType (1: sản phẩm 2: nhóm sản phẩm)": 1,
                     "typeOfRevenueProduct (1: doanh thu thuần 2: doanh số)": 2
                 },
