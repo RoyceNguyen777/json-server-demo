@@ -22,7 +22,7 @@
             "eventForm": 4,
             "attachedCondition": {
                 "orderProductCondition": {
-                    "groupProductCondition (theo nhóm sản phẩm)": [
+                    "groupProductCondition": [
                         {
                             "group": 1,
                             "valueCondition": 10000,
