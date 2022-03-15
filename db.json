@@ -4,14 +4,9 @@
             "id": 52,
             "eventCode": "bvbvb",
             "eventName": "bvbvb",
-            "status": 0,
             "statusName": "Nháp",
-            "company_id": 1,
-            "company_name": "Máy móc",
             "reward_type_id": 0,
-            "application_type_name": "Số lượng sản phẩm",
             "reward_type_name": null,
-            "type_entry_condition": 0,
             "startDate": 1644598800000,
             "endDate": 1647018000000,
             "paymentDate": 1646413200000,
@@ -196,7 +191,6 @@
             },
             "eventDescription": "",
             "eventImage": "",
-            "level_id": 1,
             "list_application_object": [
                 {
                     "user_agency_name": "Cửa hàng Chín Tửng",
@@ -1338,13 +1332,8 @@
                     "event_birthday_type": 0
                 }
             ],
-            "product_atrtibute_type": 1,
-            "is_condition_order_join": 0,
-            "event_priority_type": 0,
             "event_birthday_type": 0,
-            "is_show_event_name": 0,
-            "type_increment": 0,
-            "status_default": 0
+            "is_show_event_name": 0
         }
     }
 }
