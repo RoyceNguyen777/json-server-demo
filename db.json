@@ -8,7 +8,6 @@
             "statusName": "Nháp",
             "company_id": 1,
             "company_name": "Máy móc",
-            "application_type_id": 1,
             "reward_type_id": 0,
             "application_type_name": "Số lượng sản phẩm",
             "reward_type_name": null,
@@ -195,12 +194,8 @@
                     }
                 ]
             },
-            "dieu_kien_theo_don": {
-                "type": "Số lượng sản phẩm trên mỗi đơn hàng",
-                "listType": 1
-            },
             "eventDescription": "",
-            "eventImage": "",
+            "eventImage": "https://employer.jobsgo.vn/uploads/media/img/201910/pictures_library_34612_20191029101703_7127.png",
             "level_id": 1,
             "list_application_object": [
                 {
