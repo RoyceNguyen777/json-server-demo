@@ -69,6 +69,26 @@
                             "productId": 10,
                             "productName": "san pham 1",
                             "valueCondition": 5
+                        },
+                        {
+                            "productId": 1,
+                            "productName": "Máy bắt vít HYUNDAI HBV2030 (4.8V-0.6AH, Chổi than)",
+                            "valueCondition": 5000000
+                        },
+                        {
+                            "productId": 2,
+                            "productName": "Máy bắt vít 10mm HYUNDAI HKP1010",
+                            "valueCondition": 5000000
+                        },
+                        {
+                            "productId": 1,
+                            "productName": "Máy bắt vít 10mm HYUNDAI HKP1014",
+                            "valueCondition": 5000000
+                        },
+                        {
+                            "productId": 1,
+                            "productName": "Máy khoan búa HYUNDAI 20V HKBP2013BM",
+                            "valueCondition": 5000000
                         }
                     ],
                     "type": 2,
