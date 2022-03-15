@@ -71,7 +71,7 @@
                             "valueCondition": 5
                         }
                     ],
-                    "type (1:Số lượng sản phẩm 2: Giá trị sản phẩm 3: Giá trị đơn hàng)": 3,
+                    "type": 1,
                     "productType (1: sản phẩm 2: nhóm sản phẩm)": 1,
                     "typeOfRevenueProduct (1: doanh thu thuần 2: doanh số)": 2
                 },
