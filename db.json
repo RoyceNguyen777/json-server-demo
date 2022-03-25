@@ -12,7 +12,7 @@
             "paymentDate": 1646413200000,
             "rewardStartDate": 1644598800000,
             "rewardEndDate": 1647018000000,
-            "groupType": 1,
+            "groupType": 2,
             "eventForm": 4,
             "attachedCondition": {
                 "orderProductCondition": {
